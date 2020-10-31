@@ -4,6 +4,7 @@
     <title>Title Text snygging</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <style>
         body {
@@ -29,15 +30,15 @@
         }
 
         .snygging {
-            background: url("https://via.placeholder.com/1500x1000/0A0A0A/FFFFFF");
+            background: black url("background.png") no-repeat center;
             width: 50%;
             margin-left: auto;
             margin-right: auto;
-            padding-top: 48pt;
+            padding-top: 36pt;
             padding-left: 48pt;
             padding-right: 48pt;
             padding-bottom: 60pt;
-            border: 2px solid #de000080;
+            border: 2px solid rgb(111, 0, 0);
         }
 
         p {
@@ -51,12 +52,17 @@
         h1 {
             font-family: 'UnifrakturCook', cursive;
             font-size: 20pt;
-            margin-bottom: 48pt;
+            margin-bottom: 36pt;
+            line-height: 24pt;
         }
 
         .red {
-            color: rgba(255, 0, 0, 1);
-            text-shadow: 0px 0px 50px rgba(255, 0, 0, 0.3);
+            color: rgb(255, 0, 0);
+            text-shadow: 0px 0px 50px rgba(255, 0, 0, 0.5);
+        }
+
+        .white {
+            text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.2);
         }
 
         a {
@@ -66,8 +72,6 @@
             padding: 8pt;
             background: #DE0000;
             color: black;
-            margin-left: 7pt;
-            margin-right: 7pt;
         }
     </style>
 </head>
@@ -76,14 +80,13 @@
         <div class="h">
             <div class="snygging">
                 <h1>
-                    Title Text 
+                    <span class="white">Title Text</span> 
                     <span class=red>snygging</span>
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in luctus nulla. Praesent dapibus eu urna. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ultricies leo, eu malesuada ante. 
                 </p>
-                <a href="/minecraft">Minecraft</a>
-                <a href="/nordvpn">NordVPN</a>
+                <a href="/accounts">Accounts</a>
             </div>
         </div>
     </div>
